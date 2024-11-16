@@ -320,6 +320,7 @@ padding-bottom: 0;
 .courses-section {
   background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
   padding: 70px 0px;
+  padding-bottom: 120px;
  
 }
 
@@ -391,3 +392,14 @@ padding-bottom: 0;
   left: -6px;
   top: 2px;
 }
+
+.courses-section .wrapper {
+  position: relative;
+}
+
+.courses-section  .wrapper .btn{
+  position: absolute;
+  right: 0;
+}
+
+

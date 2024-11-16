@@ -190,7 +190,6 @@ nav ul li a {
 }
 
 
-
 .achievement-card.overall-rating .content div{
   display: flex;
   align-items: center;
@@ -316,4 +315,79 @@ padding-bottom: 0;
   height: calc(100% + 90px);
   z-index: -1;
   margin-bottom: 50px;
+}
+
+.courses-section {
+  background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+  padding: 70px 0px;
+ 
+}
+
+.courses-section .wrapper  h2 {
+  text-align: center;
+}
+
+.courses-section .course-cards{
+  display: flex;
+  gap: 70px;
+}
+
+.courses-section .course-cards  img {
+  width: 100%;
+  border-radius: 24px;
+  filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
+  margin: auto;
+}
+
+.courses-section .course-card {
+  background-color: var(--light-color);
+  border-radius: 24px;
+  padding: 0px 32px ;
+  margin: 40px 0px;
+  position:relative;
+}
+
+.courses-section .course-card::after{
+  content: "";
+  background-color: var(--dark-blue-color);
+  border-radius: 24px;
+  height:8px ;
+  left: 32px;
+  right: 32px;
+  bottom: 0;
+  position:absolute;
+}
+
+.courses-section .course-card .info{
+  display: flex;
+  padding: 0;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  
+}
+
+.courses-section .course-card h3{
+  font-family: "Raleway",sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--dark-blue-color);
+}
+
+.courses-section .course-card .duration{
+  font-family: "Raleway",sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--dark-blue-color);
+  white-space: nowrap; 
+  position: relative;
+  padding-left: 20px;
+  
+}
+
+.courses-section .course-card .duration::before{
+  content: url(images/time.svg);
+  position: absolute;
+  left: -6px;
+  top: 2px;
 }

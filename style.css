@@ -602,7 +602,7 @@ footer .copyright{
   }
 
   .hero-section .achievement-card {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     position: relative;
   }
 
@@ -614,7 +614,60 @@ footer .copyright{
 
   .hero-section .achievement-cards{
     align-self: flex-start;
-    margin: 10px;
+    gap: 40px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  .testimonials-section{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 50px;
+  }
+
+  .testimonials-section .testimonial-card{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .testimonials-section .testimonial-card:last-child::before{
+    top: -40px;
+    left: 60px;
+    height: calc(100%+80px);
+    
+  }
+
+  .testimonials-section .testimonial-card:last-child{
+    transform: translateX(0);
+    margin-bottom: 0;
+  }
+
+  .testimonials-section .desktop-btn{
+    display: none;
+  }
+
+  .testimonials-section .mobile-btn{
+    display: block;
+    align-self: flex-end;
+    order: 3;
+    margin-bottom: 20px;
+  }
+
+  .testimonials-section .right{
+    order: 1;
+  }
+  .testimonials-section .left{
+    order: 2;
+  }
+
+  .testimonials-section .right p{
+    display: inline;
+  }
+
+  .testimonials-section h2{
+    margin-bottom: 20px;
   }
 
 }

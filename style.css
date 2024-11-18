@@ -814,11 +814,50 @@ footer .links-container .links:last-child{
 
   .hero-section .right img{
     height: 400px;
+    transform: translateX(50px);
+  
   }
 
   .hero-section .right{
     transform: translateX(40px);
+    overflow: hidden ;
   }
+
+  .achievement-card h3{
+    font-size: 30px;
+  }
+  .hero-section .achievement-card{
+    margin-bottom: 48px;
+  }
+   .hero-section .right img{
+    height: 400px;
+    transform: translateX(50px);
+  
+  }
+
+  .hero-section .right{
+    transform: translateX(40px);
+    overflow: hidden ;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .testimonials-section .testimonial-card .info h4{
+    font-size: 18px;
+  }
+
+  .testimonials-section .testimonial-card .info p{
+    font-size: 14px;
+  }
+
+  .testimonials-section .testimonial-card img{
+    height: 100px;
+    width: 100px;
+  }
+
+ 
 }
 
 

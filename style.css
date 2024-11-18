@@ -840,7 +840,7 @@ footer .links-container .links:last-child{
     overflow: hidden ;
   }
 
-  h2{
+  h2 {
     font-size: 30px;
   }
 
@@ -857,7 +857,53 @@ footer .links-container .links:last-child{
     width: 100px;
   }
 
- 
+ .courses-section .wrapper{
+  padding: 0;
+ }
+
+ .courses-section .course-card img{
+  height: 240px;
+ }
+
+ .courses-section .wrapper .btn{
+  right: 32px;
+ }
+
+ .app-section h2{
+  font-size: 30px;
+ }
+ .app-section .app-buttons .app-btn span{
+  font-size: 20px;
+ }
+
+ footer .links-container {
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: 40px;
+ }
+
+ footer .links-container .links:last-child{
+  grid-column: 1/2;
+ }
+
+ footer ul{
+  padding: 0;
+ }
+
+ footer .links-container .social{
+  justify-content: center;
+ }
+
+ footer .submit-btn{
+  top: 130%;
+  left:50%;
+  transform: translateX(-50%);
+ }
+
+ footer .copyright{
+  margin-top: 80px;
+  text-align: center;
+ }
 }
 
 

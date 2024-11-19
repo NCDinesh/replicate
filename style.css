@@ -13,7 +13,7 @@
 
 body{
   margin: 0;
-  font-family: popins;
+  font-family: Poppins;
 }
 
 .btn{
@@ -111,12 +111,13 @@ nav ul li a {
   justify-content: space-between;
   padding-top: 60px;
   position: relative;
+  color: #FFFFFF;
 }
 
 .achievement-card{
   position: absolute;
   min-width: 200px;
-
+ color: var(--dark-blue-color);
 
 }
 
@@ -133,14 +134,13 @@ nav ul li a {
   font-family: "Raleway",sans-serif;
   font-size: 50px;
   font-family: 900;
-  color: #FFFFFF;
   margin-bottom: 0;
 }
 
 .hero-section .left p{ 
-  font-family: "Poppins",sans-serif;
+  
   font-size: 16px;
-  color: #FFFFFF;
+  
   font-weight: normal ;
   width: 457px;
   margin-bottom: 30px;
@@ -172,19 +172,17 @@ nav ul li a {
 } 
 
 .achievement-card h3{
-  font-family: "Poppins",sans-serif;
+  
   font-size: 36px;
   font-weight: bold;
-  color: var(--dark-blue-color);
   margin:0;
   text-align: center;
   
 }
 
 .achievement-card p{
-  font-family: "Poppins",sans-serif;
+
   font-size: 16px;
-  color: var(--dark-blue-color);
   margin-top: -8px;
   margin-bottom: 8px;
 }
@@ -227,9 +225,7 @@ h2.light{
 }
 
 section p {
-  font-family: "Poppins",sans-serif;
   font-size: 16px;
-  color: var(--dark-blue-color);
   font-weight: normal ;
   margin: 12px 0px;
 }
@@ -428,7 +424,6 @@ padding-bottom: 0;
 }
 
 .app-section p{
-  font-family: "Poppins",sans-serif;
   font-size: 16px;
   color: var(--dark-blue-color);
   font-weight: normal ; 
@@ -454,7 +449,6 @@ padding-bottom: 0;
 }
 
 .app-section .app-buttons .app-btn span{
-  font-family: "Poppins",sans-serif;
   font-size: 20px;
   font-weight: normal;
   color: #FFFFFF;
@@ -473,14 +467,12 @@ grid-template-columns: 2fr 2fr 3fr;
 
 footer .links-container h3{
   color: var(--orange-color);
-  font-family: "Poppins",sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
 footer .links-container ul{
   color: var(--light-color);
-  font-family: "Poppins",sans-serif;
   font-size: 16px;
   List-style: none;
   padding-left: 20px;
@@ -517,7 +509,7 @@ footer form input{
   border-radius: 8px;
   border: none;
   width: 100%;
-  padding:8px 32px
+  padding:8px 160px 8px 32px
 }
 
 footer .submit-btn{
@@ -538,7 +530,6 @@ footer .submit-btn{
 
 footer .copyright{
   margin-top: 36px;
-  font-family:"Poppins",sans-serif; 
   font-size: 16px;
 }
 
@@ -903,6 +894,10 @@ footer .links-container .links:last-child{
  footer .copyright{
   margin-top: 80px;
   text-align: center;
+ }
+
+ footer form input{
+  padding: 8px 32px;
  }
 }
 
